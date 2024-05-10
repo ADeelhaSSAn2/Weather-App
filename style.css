@@ -107,4 +107,13 @@ body{
     color: #fff;
 }
 
+/* media query */
 
+
+@media screen and (max-width: 480px) {
+    .search input[type="text"],
+    .search button {
+        padding: 6px;
+        font-size: 12px;
+    }
+}
