@@ -109,11 +109,31 @@ body{
 
 /* media query */
 
-
+@media screen and (max-width: 768px) {
+    .card {
+        margin: 10px;
+    }
+    .search {
+        padding: 10px;
+    }
+    .search input {
+        font-size: 14px;
+    }
+    .temp {
+        font-size: 24px;
+    }
+    .city {
+        font-size: 18px;
+    }
+    .col p {
+        font-size: 12px;
+    }
+}
 @media screen and (max-width: 480px) {
     .search input[type="text"],
     .search button {
         padding: 6px;
         font-size: 12px;
     }
+    
 }
