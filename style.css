@@ -9,8 +9,8 @@ body{
 }
 .card{
     width: 90%;
-    max-width: 470px;
-    background: linear-gradient(135deg, #0249fe, #08ffbd);
+    max-width: 430px;
+    background: linear-gradient(135deg, #020ffe, #00fe3b);
     color: #fff;
     margin: 100px auto 0;
     border-radius: 20px;
@@ -81,7 +81,30 @@ body{
     font-size: 28px;
     margin-top: -6px;
 }
+.weather{
+    display: none;
+}
+.error{
+    text-align: left;
+    margin-left: 11px;
+    font-size: 14px;
+    margin-top: 10px;
+    display: none;
+}
+.credits{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 1.5rem;
+    text-align: center;
+    padding: 1rem 1rem;
+    margin-top: 1rem;
+    color:#fff ;
 
-
+}
+.credits span{
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif ;
+}
+.credits a{
+    color: #fff;
+}
 
 
